@@ -1,0 +1,16 @@
+import javax.swing.JOptionPane;
+
+/**
+ *
+ * @author ASUS
+ */
+
+public class TugasDua {
+    public static void main(String[] args) {
+        //Membuat variabel string untuk menampung input dialog
+        String belajar = JOptionPane.showInputDialog(null,"Anda sedang belajar apa ?");
+        
+        //untuk menampilkan hasil dari input yaitu berupa Message
+        JOptionPane.showMessageDialog(null, "Belajar "+belajar+" sangat mudah");
+    }
+}
